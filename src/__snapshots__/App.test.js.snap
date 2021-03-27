@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="main-header"
+  >
+    <h1
+      className="main-navigation__title"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        QUIZ APP
+      </a>
+    </h1>
+    <nav
+      className="main-navigation__header-nav"
+    >
+      <ul
+        className="nav-links"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            HOME
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div
+      className="card entry-card"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <h1>
+          QUIZ FORM
+        </h1>
+        <hr />
+        <div
+          className="form-control"
+        >
+          <label
+            htmlFor="name"
+          >
+            Name
+          </label>
+          <input
+            id="name"
+            onChange={[Function]}
+            placeholder="Enter your name..."
+            type="text"
+            value=""
+          />
+        </div>
+        <h4>
+          SELECT QUIZ CATEGORY
+        </h4>
+        <div>
+          <select
+            onChange={[Function]}
+          >
+            <option />
+            <option />
+            <option />
+          </select>
+        </div>
+        
+      </form>
+    </div>
+  </main>
+</div>
+`;

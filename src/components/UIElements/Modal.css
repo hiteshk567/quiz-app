@@ -1,0 +1,23 @@
+.result-div-box {
+  border: 1px solid black;
+  /* margin: 1rem 1rem; */
+  width: 100%;
+  text-align: center;
+}
+
+#transition-modal-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 2rem;
+  grid-gap: 1rem;
+}
+
+.makeStyles-paper-2 {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+}
+
+.all-buttons {
+  margin-top: 2rem auto;
+}
